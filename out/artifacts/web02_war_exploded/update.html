@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <title>修改</title>
+</head>
+<body>
+<H1>修改页面</H1>
+<hr>
+<form action='/web02/dept/update' method='post'>
+    <table border='1px' align='center'>
+        <tr>
+            <td>部门编号</td>
+            <td><input type='text' name='deptno'></td>
+        </tr>
+        <tr>
+            <td>部门名称</td>
+            <td><input type='text' name='deptname'></td>
+        </tr>
+        <tr>
+            <td>部门位置</td>
+            <td><input type='text' name='deptloc'></td>
+        </tr>
+        <tr>
+            <td colspan='2'><input type='submit' value='提交'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type='reset' value='重置'></td>
+    </table>
+</form>
+<a href='javascript:history.back(-1);'>返回</a>
+</body>
+</html>

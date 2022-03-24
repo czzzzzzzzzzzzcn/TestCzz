@@ -2,12 +2,30 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="web01:war exploded" />
+      <artifact name="web02:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cb3127a-912b-4de0-98b9-85f9457e6d76" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web01/web/Hello" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/web02_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jsp_api1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web01/src/com/czz/servlet/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web02/src/com/czz/servlet/DeptDelServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web02/src/com/czz/servlet/DeptInsertServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web02/src/com/czz/servlet/DeptListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web02/src/com/czz/servlet/DeptQueryBeforeUpdateServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web02/src/com/czz/servlet/DeptUpdateServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web02/src/com/czz/util/DBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web02/src/com/czz/util/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web02/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web02/web/deleteError.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web02/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web02/web/insert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web02/web/insertError.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web02/web/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web02/web/updateError.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web02/web02.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,10 +44,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web01/src/com/czz/servlet/SecServlet.java">
+        <entry file="file://$PROJECT_DIR$/web02/src/com/czz/servlet/DeptListServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+            <state relative-caret-position="246">
+              <caret line="71" column="60" selection-start-line="71" selection-start-column="60" selection-end-line="71" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,19 +56,58 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/apache-tomcat-9.0.41/lib/servlet-api.jar!/javax/servlet/GenericServlet.class">
+        <entry file="file://$PROJECT_DIR$/web02/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            <state relative-caret-position="525">
+              <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demomodel01/src/com/czz/Test011.java">
+        <entry file="file://$PROJECT_DIR$/web02/src/com/czz/servlet/DeptDelServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="57" column="1" selection-start-line="56" selection-start-column="5" selection-end-line="57" selection-end-column="1" />
+            <state relative-caret-position="125">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web02/web/deleteError.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="12" column="7" lean-forward="true" selection-end-line="12" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web02/web/update.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="9" selection-start-line="9" selection-end-line="26" selection-end-column="7" />
+              <folding>
+                <element signature="e#564#570#0" expanded="true" />
+                <element signature="e#570#576#0" expanded="true" />
+                <element signature="e#576#582#0" expanded="true" />
+                <element signature="e#582#588#0" expanded="true" />
+                <element signature="e#588#594#0" expanded="true" />
+                <element signature="e#594#600#0" expanded="true" />
+                <element signature="e#600#606#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web02/src/com/czz/servlet/DeptQueryBeforeUpdateServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="56" column="76" selection-start-line="56" selection-start-column="76" selection-end-line="56" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,42 +116,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web01/web/Hello">
+        <entry file="file://$PROJECT_DIR$/web02/src/com/czz/servlet/DeptUpdateServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" selection-start-column="10" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web01/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demomodel01/src/com/czz/Test06.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demomodel01/src/com/czz/Test04.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demomodel01/src/com/czz/Test01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="47" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="47" />
+            <state relative-caret-position="602">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,19 +128,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demomodel01/src/com/czz/MaxSubString.java">
+        <entry file="file://$PROJECT_DIR$/web02/web/updateError.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="150">
+              <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demomodel01/src/com/czz/Test03.java">
+        <entry file="jar://D:/Program Files/JDK8/src.zip!/java/io/PrintWriter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+            <state relative-caret-position="165">
+              <caret line="598" column="16" selection-start-line="598" selection-start-column="16" selection-end-line="598" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web02/src/com/czz/util/DBUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="497">
+              <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -128,6 +162,7 @@
         <option value="Interface" />
         <option value="Kotlin Class" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -135,29 +170,16 @@
     <findStrings>
       <find>rson</find>
       <find>value</find>
+      <find>&quot;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/demomodel01/src/com/czz/io/PrintStreamTest01.java" />
-        <option value="$PROJECT_DIR$/demomodel01/src/com/czz/io/CopyTest01.java" />
-        <option value="$PROJECT_DIR$/demomodel01/src/com/czz/io/COpyAllTest.java" />
-        <option value="$PROJECT_DIR$/demomodel01/src/com/czz/io/BufferWriterTest01.java" />
-        <option value="$PROJECT_DIR$/demomodel01/src/com/czz/io/CopyAll.java" />
-        <option value="$PROJECT_DIR$/demomodel01/src/com/czz/io/Student.java" />
-        <option value="$PROJECT_DIR$/demomodel01/src/com/czz/io/ObjectOutStreamTest01.java" />
-        <option value="$PROJECT_DIR$/demomodel01/src/com/czz/io/ObjectInputStreamTest01.java" />
-        <option value="$PROJECT_DIR$/demomodel01/src/com/jdbcMsg.properties" />
-        <option value="$PROJECT_DIR$/demomodel01/src/com/czz/io/PropertiesTest01.java" />
-        <option value="$PROJECT_DIR$/demomodel01/src/com/czz/thread/ThreadTest01.java" />
-        <option value="$PROJECT_DIR$/demomodel01/src/com/czz/thread/ThreadTest02.java" />
-        <option value="$PROJECT_DIR$/demomodel01/src/com/czz/io/safe/MyThread.java" />
-        <option value="$PROJECT_DIR$/demomodel01/src/com/czz/io/safe/Test01.java" />
-        <option value="$PROJECT_DIR$/demomodel01/src/com/czz/io/safe/MyAccount.java" />
         <option value="$PROJECT_DIR$/demomodel01/src/com/czz/io/dead/DeadThreadTest01.java" />
         <option value="$PROJECT_DIR$/demomodel01/src/com/czz/io/proandcum.java" />
         <option value="$PROJECT_DIR$/demomodel01/src/com/czz/io/proandcum/ProductAndComsumer.java" />
@@ -194,6 +216,21 @@
         <option value="$PROJECT_DIR$/web01/src/com/czz/servlet/SecServlet.java" />
         <option value="$PROJECT_DIR$/demomodel01/src/com/czz/Test011.java" />
         <option value="$PROJECT_DIR$/web01/web/Hello" />
+        <option value="$PROJECT_DIR$/web01/src/com/czz/servlet/Test.java" />
+        <option value="$PROJECT_DIR$/web02/web/index.html" />
+        <option value="$PROJECT_DIR$/web02/web/delete.html" />
+        <option value="$PROJECT_DIR$/web02/src/com/czz/util/DBUtil.java" />
+        <option value="$PROJECT_DIR$/web02/web/deleteError.html" />
+        <option value="$PROJECT_DIR$/web02/web/insert.html" />
+        <option value="$PROJECT_DIR$/web02/src/com/czz/servlet/DeptDelServlet.java" />
+        <option value="$PROJECT_DIR$/web02/web/insertError.html" />
+        <option value="$PROJECT_DIR$/web02/src/com/czz/servlet/DeptInsertServlet.java" />
+        <option value="$PROJECT_DIR$/web02/web/update.html" />
+        <option value="$PROJECT_DIR$/web02/src/com/czz/servlet/DeptListServlet.java" />
+        <option value="$PROJECT_DIR$/web02/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web02/src/com/czz/servlet/DeptUpdateServlet.java" />
+        <option value="$PROJECT_DIR$/web02/web/updateError.html" />
+        <option value="$PROJECT_DIR$/web02/src/com/czz/servlet/DeptQueryBeforeUpdateServlet.java" />
       </list>
     </option>
   </component>
@@ -251,53 +288,93 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="javaseTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tesT01" type="462c0819:PsiDirectoryNode" />
+              <item name="web02" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javaseTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web01" type="462c0819:PsiDirectoryNode" />
+              <item name="web02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javaseTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web01" type="462c0819:PsiDirectoryNode" />
+              <item name="web02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaseTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="czz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaseTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="czz" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaseTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="czz" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaseTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web02" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javaseTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="web02" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="GenerateAntBuildDialog.backupFiles" value="true" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="javasetest" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1648040077775" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1648098289594" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="D:/Program Files/apache-tomcat-9.0.41/lib/servlet-api.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\knowladge\1-Java\java-newFirst\foundation\javaseTest\web02\src\com\czz" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.czz.util" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\knowladge\1-Java\java-newFirst\foundation\javaseTest\web02\src\com\czz\util" />
       <recent name="D:\knowladge\1-Java\java-newFirst\foundation\javaseTest\demomodel01\src\com\czz" />
     </key>
   </component>
@@ -313,7 +390,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test022">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.41">
     <configuration name="CollectionMapTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.czz.review.CollectionMapTest01" />
       <module name="demomodel01" />
@@ -327,12 +404,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.czz.Test01" />
-      <module name="demomodel01" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.czz.servlet.Test" />
+      <module name="web01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.czz.*" />
+          <option name="PATTERN" value="com.czz.servlet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -383,9 +460,9 @@
       <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="web01:war exploded">
+        <artifact name="web02:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/web01" />
+            <option name="CONTEXT_PATH" value="/web02" />
           </settings>
         </artifact>
       </deployment>
@@ -448,25 +525,25 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="web01:war exploded" />
+          <artifact name="web02:war exploded" />
         </option>
       </method>
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Tomcat 9.0.41" />
-      <item itemvalue="Application.Test01" />
       <item itemvalue="Application.Test06" />
       <item itemvalue="Application.CollectionMapTest01" />
       <item itemvalue="Application.ThreadTest01" />
       <item itemvalue="Application.Test022" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Test022" />
         <item itemvalue="Application.ThreadTest01" />
         <item itemvalue="Application.CollectionMapTest01" />
         <item itemvalue="Application.Test06" />
-        <item itemvalue="Application.Test01" />
       </list>
     </recent_temporary>
   </component>
@@ -504,12 +581,13 @@
       <workItem from="1647831616291" duration="7843000" />
       <workItem from="1647949737804" duration="1278000" />
       <workItem from="1648031890763" duration="742000" />
-      <workItem from="1648034177068" duration="1974000" />
+      <workItem from="1648034177068" duration="6803000" />
+      <workItem from="1648089155165" duration="7706000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167011000" />
+    <option name="totallyTimeSpent" value="179546000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -524,7 +602,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49646392" visible="true" weight="0.19839142" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49646392" visible="true" weight="0.20107238" />
       <window_info id="Structure" order="1" sideWeight="0.50353605" side_tool="true" weight="0.30294907" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -534,13 +612,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.301273" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.48231965" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.12322946" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.49008498" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.58215296" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.08498584" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.48231965" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -644,120 +722,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Program Files/JDK8/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70075">
-          <caret line="2888" selection-start-line="2888" selection-end-line="2888" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demomodel01/src/com/czz/anotation/MyException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demomodel01/src/com/czz/anotation/MyAnnotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demomodel01/src/com/czz/io/safe/MyThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demomodel01/src/com/czz/test1/ArrayTest01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tesT01/src/com/czz/db/properties.java" />
-    <entry file="file://$PROJECT_DIR$/tesT01/src/com/czz/test01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tesT01/src/com/czz/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/JDK8/src.zip!/java/sql/ResultSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3025">
-          <caret line="147" column="17" selection-start-line="147" selection-start-column="17" selection-end-line="147" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tesT01/src/com/czz/DBUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="22" column="66" selection-start-line="22" selection-start-column="66" selection-end-line="22" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demomodel01/src/com/czz/io/PropertiesTest01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demomodel01/src/com/czz/reflect/ReflectTest01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demomodel01/src/com/czz/reflect/ReflectTest02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demomodel01/src/com/czz/reflect/ReflectTest03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tesT01/src/com/czz/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demomodel01/src/com/czz/reflect/reflectio/ReflectIOTest01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="69" column="54" selection-start-line="69" selection-start-column="54" selection-end-line="69" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demomodel01/src/com/fiel/file01" />
-    <entry file="file://$PROJECT_DIR$/demomodel01/src/com/czz/io/FileOutPutStreamTest01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demomodel01/src/com/fiel/write01" />
     <entry file="file://$PROJECT_DIR$/demomodel01/src/com/fiel/copy01.txt" />
     <entry file="file://$PROJECT_DIR$/demomodel01/src/com/fiel/write02" />
@@ -870,19 +834,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web01/src/com/czz/servlet/SecServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -914,9 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" column="47" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -938,9 +886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="57" column="1" selection-start-line="56" selection-start-column="5" selection-end-line="57" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -948,6 +893,168 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web01/src/com/czz/servlet/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1475">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web01/src/com/czz/servlet/SecServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web02/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web02/src/com/czz/util/db.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tesT01/src/com/czz/DBUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="22" selection-start-line="22" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web02/web02.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web02/web/insertError.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web02/src/com/czz/servlet/DeptInsertServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web02/web/insert.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" selection-start-line="7" selection-end-line="27" selection-end-column="45" />
+          <folding>
+            <element signature="n#form#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#546#552#1" expanded="true" />
+            <element signature="e#552#558#0" expanded="true" />
+            <element signature="e#558#564#0" expanded="true" />
+            <element signature="e#564#570#0" expanded="true" />
+            <element signature="e#570#576#0" expanded="true" />
+            <element signature="e#576#582#0" expanded="true" />
+            <element signature="e#582#588#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web02/src/com/czz/util/DBUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web02/web/update.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="9" selection-start-line="9" selection-end-line="26" selection-end-column="7" />
+          <folding>
+            <element signature="e#564#570#0" expanded="true" />
+            <element signature="e#570#576#0" expanded="true" />
+            <element signature="e#576#582#0" expanded="true" />
+            <element signature="e#582#588#0" expanded="true" />
+            <element signature="e#588#594#0" expanded="true" />
+            <element signature="e#594#600#0" expanded="true" />
+            <element signature="e#600#606#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/JDK8/src.zip!/java/io/PrintWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="598" column="16" selection-start-line="598" selection-start-column="16" selection-end-line="598" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web02/src/com/czz/servlet/DeptListServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="71" column="60" selection-start-line="71" selection-start-column="60" selection-end-line="71" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web02/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web02/web/deleteError.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="7" lean-forward="true" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web02/src/com/czz/servlet/DeptDelServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web02/web/updateError.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web02/src/com/czz/servlet/DeptQueryBeforeUpdateServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="56" column="76" selection-start-line="56" selection-start-column="76" selection-end-line="56" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web02/src/com/czz/servlet/DeptUpdateServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1031,7 +1138,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>jsp-api</last-edited>
+          <last-edited>jsp-api1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
